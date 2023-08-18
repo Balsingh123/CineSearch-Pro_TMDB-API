@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<title></title>
+	   <link rel="stylesheet" type="text/css" href="styles.css">
+
+	
+</head>
+<body>
+
+		
+	
+		    <div class="header">
+		    	<div class="outer" style="margin: 0 30px 0 20px;">
+		    		
+		    			<div><img src="logo.png" alt="cine data logo" style="height: 25px;border-radius: 40%; margin-top: 5px;margin-right: 3px;"></div>
+		    			<div style="color: papayawhip;"><h2>CineData</h2></div>
+
+
+		    		
+		    		
+		    	</div>
+		    	<form id="search">
+		    		<input id="inpt" type="text" placeholder="Search">
+		    	</form>
+		    	<div style="flex: 1;text-align: right;margin-right: 20px;">
+		    		<button onclick="getAPI('https://api.themoviedb.org/3/movie/top_rated?api_key=777fba7616e91ff5b4c12d5d8270366f&query')">GoHome</<button>
+		    	</div>
+		    </div>
+
+		    <div class="instruction">
+		    	
+ 				
+		    	<h2>Hover over the movie poster for more details</h2>
+		    	<p id="note" style="color: gainsboro;font-size: 23px;"></p>
+		    </div>
+
+         
+           <div id="container">
+
+
+           	
+           </div>
+            <div id="container2">
+
+
+           	
+           </div>
+
+		    
+			
+
+		    <div class="footer"></div>
+	
+
+	
+	<script src="cine.js"></script>
+</body>
+</html>
